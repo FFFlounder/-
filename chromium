@@ -1,0 +1,2 @@
+http://mirrordirector.raspbian.org/raspbian/pool/main/c/chromium-browser/
+sudo dpkg -i ./*.deb
