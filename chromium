@@ -5,3 +5,6 @@ tar xzvf libghttp-1.0.9.orig.tar.gz
 gzip -d libghttp-1.0.9.diff.gz  
 cd libghttp-1.0.9  
 patch -p1 < ../libghttp-1.0.9.diff  
+
+
+sudo apt-get install chromium-browser chromium-l10n
