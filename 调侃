@@ -5,7 +5,7 @@ pi@raspberrypi:~ $ sudo apt-get install girlfriend
 有一些软件包无法被安装。
 下列的信息可能会对解决问题有所帮助：
 下列软件包有未满足的依赖关系：
-girlfiend: 依赖: house但是它将不会被安装
-girlfiend: 依赖: car但是它将不会被安装
+girlfriend: 依赖: house但是它将不会被安装
+girlfriend: 依赖: car但是它将不会被安装
 house,car: 依赖: money但是它将不会被安装
 E: 无法安装的软件包
