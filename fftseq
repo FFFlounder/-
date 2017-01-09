@@ -1,0 +1,10 @@
+function [M,m,df]=fftseq(m,ts,df)
+fs=1/ts;                             %抽样频率
+n1=fs/df;                            %基带信号序列的长度
+n2=length(m);                        %基带信号序列的长度
+n=2^(max(nextpow2(n1),nextpow2(n2)));%nextpow2 取最接近的较大2次幂
+M=fft(m,n);                          %matlab库自带的fft函数
+m=[m,zeros(1,n-n2)];                 %时间序列补零
+df=fs/n;                             %得到最终的频率分辨率
+signal_power =    2.0484
+noise_power =    0.0205
