@@ -8,7 +8,7 @@ y1=y(:);
 x1=x+0.9999
 x2=[x;x1]
 x3=x2(:)
-subplot(311);
+subplot(3,1,1);
 plot(x3,y1);
 title('输入信号');
 xlim([0,10]);
